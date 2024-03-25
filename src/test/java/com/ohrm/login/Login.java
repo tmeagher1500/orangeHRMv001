@@ -30,8 +30,13 @@ public class Login {
 		
 		driver.findElement(By.cssSelector("button")).click();
 		
+		String homePageTitle = driver.getTitle();
+		System.out.println("Home page title: " + homePageTitle);
+		String expectedHomePageTitle = "OrangeHRM";
+		Assert.assertEquals(homePageTitle, expectedHomePageTitle);
+		
 		Thread.sleep(5000);
-		driver.close();
-		driver.quit();
+//		driver.close();
+//		driver.quit();
 	}
 }

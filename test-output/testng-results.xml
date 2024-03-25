@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-23T10:23:48 EDT" name="Default suite" finished-at="2024-03-23T10:24:03 EDT" duration-ms="15198">
+  <suite started-at="2024-03-24T12:58:55 EDT" name="Default suite" finished-at="2024-03-24T12:59:11 EDT" duration-ms="15797">
     <groups>
     </groups>
-    <test started-at="2024-03-23T10:23:48 EDT" name="Default test" finished-at="2024-03-23T10:24:03 EDT" duration-ms="15198">
+    <test started-at="2024-03-24T12:58:55 EDT" name="Default test" finished-at="2024-03-24T12:59:11 EDT" duration-ms="15797">
       <class name="com.ohrm.login.Login">
-        <test-method signature="loginTest()[pri:0, instance:com.ohrm.login.Login@13fd2ccd]" started-at="2024-03-23T10:23:48 EDT" name="loginTest" finished-at="2024-03-23T10:24:03 EDT" duration-ms="15148" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.ohrm.login.Login@13fd2ccd]" started-at="2024-03-24T12:58:55 EDT" name="loginTest" finished-at="2024-03-24T12:59:11 EDT" duration-ms="15747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
